@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TikTakToe</title>
+    <title>Tic Tac Toe</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="./img/logo.png">
     <!-- basic structure -->
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <!-- font -->
 </head>
-<body>
-    
+<body onload="init()">
+    <h1>Tic Tac Toe</h1>
+    <dix id="content"></dix>
+    <div class="center mt-32">
+        <button onclick="restartGame()">Spiel neu starten</button>
+    </div>
 </body>
 </html>
